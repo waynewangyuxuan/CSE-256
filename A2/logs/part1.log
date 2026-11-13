@@ -1,0 +1,38 @@
+Matplotlib is building the font cache; this may take a moment.
+Loading data and creating tokenizer ...
+Vocabulary size is 5634
+===== part1 =====
+Encoder parameters: 561920
+Classifier head parameters: 6803
+epoch  1 | train loss 1.0729 | train acc 50.91 | test acc 43.20
+epoch  2 | train loss 1.0190 | train acc 49.33 | test acc 38.93
+epoch  3 | train loss 0.9423 | train acc 58.41 | test acc 53.60
+epoch  4 | train loss 0.8348 | train acc 71.51 | test acc 65.33
+epoch  5 | train loss 0.7050 | train acc 80.83 | test acc 73.20
+epoch  6 | train loss 0.5168 | train acc 87.57 | test acc 77.47
+epoch  7 | train loss 0.3737 | train acc 93.12 | test acc 81.47
+epoch  8 | train loss 0.2372 | train acc 95.79 | test acc 83.07
+epoch  9 | train loss 0.1474 | train acc 98.23 | test acc 84.53
+epoch 10 | train loss 0.1007 | train acc 98.28 | test acc 84.67
+epoch 11 | train loss 0.0759 | train acc 98.71 | test acc 84.80
+epoch 12 | train loss 0.0745 | train acc 99.09 | test acc 84.93
+epoch 13 | train loss 0.0926 | train acc 99.43 | test acc 85.87
+epoch 14 | train loss 0.0488 | train acc 99.33 | test acc 85.47
+epoch 15 | train loss 0.0351 | train acc 99.04 | test acc 84.40
+Final test accuracy: 84.40
+Sanity check on: That's how progress happens -- in societies and in our own lives.
+Input tensor shape: (1, 32)
+Number of attention maps: 8
+All attention rows sum to 1: True
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence1_L1H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence1_L1H1_words.png
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence1_L4H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence1_L4H1_words.png
+Sanity check on: The level of world cooperation and condemnation of Iraq is unprecedented.
+Input tensor shape: (1, 32)
+Number of attention maps: 8
+All attention rows sum to 1: True
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence2_L1H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence2_L1H1_words.png
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence2_L4H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/encoder_sentence2_L4H1_words.png

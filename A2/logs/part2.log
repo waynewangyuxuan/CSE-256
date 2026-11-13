@@ -1,0 +1,28 @@
+Matplotlib is building the font cache; this may take a moment.
+Loading data and creating tokenizer ...
+Vocabulary size is 5634
+===== part2 =====
+Decoder parameters: 847634
+iter 100 | train ppl 576.9 | obama ppl 699.4 | wbush ppl 799.3 | hbush ppl 708.3
+iter 200 | train ppl 432.1 | obama ppl 581.5 | wbush ppl 662.6 | hbush ppl 576.0
+iter 300 | train ppl 310.2 | obama ppl 479.9 | wbush ppl 568.4 | hbush ppl 480.9
+iter 400 | train ppl 224.5 | obama ppl 418.9 | wbush ppl 512.7 | hbush ppl 423.8
+iter 500 | train ppl 172.2 | obama ppl 385.9 | wbush ppl 488.5 | hbush ppl 397.1
+Final perplexities:
+iter 500 | train ppl 171.2 | obama ppl 385.9 | wbush ppl 488.5 | hbush ppl 397.1
+Sanity check on: That's how progress happens -- in societies and in our own lives.
+Input tensor shape: (1, 32)
+Number of attention maps: 8
+All attention rows sum to 1: True
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence1_L1H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence1_L1H1_words.png
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence1_L4H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence1_L4H1_words.png
+Sanity check on: The level of world cooperation and condemnation of Iraq is unprecedented.
+Input tensor shape: (1, 32)
+Number of attention maps: 8
+All attention rows sum to 1: True
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence2_L1H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence2_L1H1_words.png
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence2_L4H1_full.png
+Saved /Users/wang/CSE-256/A2/figures/decoder_sentence2_L4H1_words.png
