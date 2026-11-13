@@ -13,8 +13,6 @@ logits, maps = classifier(ids)
 assert logits.shape == (3, 3) and len(maps) == 8 and maps[0].shape == (3, 32, 32)
 assert all(torch.allclose(m.sum(-1), torch.ones(3, 32), atol=1e-5) for m in maps), "encoder rows must sum to 1"
 assert maps[0][0, :, 20:].abs().max() == 0, "padding must receive no attention"
-changed_pad = ids.clone()
-changed_pad[0, 20:] = 0
 longer = torch.cat([ids[:1, :20], torch.zeros(1, 5, dtype=torch.long)], dim=1)
 assert torch.allclose(classifier(longer)[0], logits[:1], atol=1e-5), "amount of padding must not change the prediction"
 
