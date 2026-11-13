@@ -1,0 +1,6 @@
+Loading data and creating tokenizer ...
+Vocabulary size is 5634
+train_LM: 32288 tokens, 4435 distinct words
+obama | tokens 5549 | unk 1.93% | not in train_LM 7.35%
+wbush | tokens 4795 | unk 2.13% | not in train_LM 9.41%
+hbush | tokens 4778 | unk 2.13% | not in train_LM 8.23%
