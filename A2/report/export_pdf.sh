@@ -24,7 +24,21 @@ print_css = """<style>
   .jp-Cell { break-inside: auto; }
 }
 </style></head>"""
-open(path, "w", encoding="utf-8").write(html.replace("</head>", print_css, 1))
+ai_disclaimer = """<section class="jp-Cell jp-MarkdownCell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputPrompt jp-InputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput">
+<h3>AI Use Disclaimer</h3>
+<p>I used Claude to assist with the Transformer implementation, the Part 3
+notebook, and drafting and revising the report. I used Codex to add this
+disclosure to the final PDF.</p>
+</div>
+</div>
+</section>
+</main>"""
+html = html.replace("</head>", print_css, 1)
+html = html.replace("</main>\n</body>", ai_disclaimer + "\n</body>", 1)
+open(path, "w", encoding="utf-8").write(html)
 PYEOF
 print_pdf report/partB_notebook.html report/partB_notebook.pdf
 
